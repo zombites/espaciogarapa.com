@@ -1,0 +1,107 @@
+@font-face {
+	font-family: lanehum;
+	src: url('../fonts/Lanehum.ttf') format('truetype');
+}
+
+*, h1, h3, h3, h4, h5, h6, .h1, .h3, .h3, .h4, .h5, .h6 {
+	font-family: "Lato", sans-serif;
+}
+
+body {
+	padding-bottom: 0 !important;
+}
+
+hr {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #CCCCCC;
+}
+
+a:hover, a:focus {
+	color: #008080;
+	text-decoration: none;
+}
+
+footer a {
+	color: #333;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #333;
+	text-decoration: underline;
+}
+
+footer {
+	margin-top: 50px;
+	padding-top: 20px;
+	background-color: #F8F8F8;
+	border-top: 1px solid #DDDDDD;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #008080 !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+.featurette-heading {
+	margin-top: 50px !important;
+	font-size: 25px !important;
+	font-weight: bold !important;
+}
+
+.btn-garapa:link {
+  color: #FFFFFF;
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+.btn-garapa:hover,
+.btn-garapa:active {
+	color: #5A5A5A;
+	background-color: #FFFFFF;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: rgba(0, 128, 128, 0.05); 
+}
+
+.tooltip-inner {
+	background-color: transparent;
+	color: #008080;
+	border: 1px solid #008080;
+}
+
+.tooltip.left .tooltip-arrow {
+	border-left-color: #008080;
+}
+
+/**************************************************************/
+
+.titulo-font-lanehum {
+	font-family: "lanehum", sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #666666 !important;
+	padding: 10px;
+}
+
+.titulo-leaf {
+	color: #008080;
+	margin-right: 5px;
+}
+
+.heading-garapa {
+	font-family: "lanehum", sans-serif;
+	border-bottom: 1px solid #008080;
+}
+
+.glyphicon-garapa {
+	color: #008080;
+}
