@@ -27,17 +27,13 @@ a:hover, a:focus {
 footer {
 	margin-top: 50px;
 	padding-top: 20px;
-	background-color: #F8F8F8;
-	border-top: 1px solid #BBD0EE;
+	background-color: #BBD0EE;
+	border-top: 1px solid #9AB9E3;
 	text-align: center;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #79A1D5 !important;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	color: #2A3D64 !important;
 }
 
 .navbar-nav.navbar-right:last-child {
@@ -78,16 +74,6 @@ footer {
 
 /**************************************************************/
 
-.logo-slide {
-	margin: auto;
-	margin-top: 35px;
-	margin-bottom: -70px;
-}
-
-.carousel-inner > .item > img {
-
-}
-
 .titulo-font-lanehum {
 	font-family: "lanehum", sans-serif;
 	font-weight: bold;
@@ -96,29 +82,16 @@ footer {
 	padding: 10px;
 }
 
-.heading-garapa,
-.heading-garapa-first {
+.heading-garapa {
 	font-family: "lanehum", sans-serif;
-	border-bottom: 1px solid #9AB9E3;
-	color: #2A3D64;
+	border-bottom: 1px solid #79A1D5;
+	color: #79A1D5;
 }
 
-.heading-garapa-first {
-	margin-top: 0 !important;
+h2.heading-garapa {
+	
 }
 
 .glyphicon-garapa {
 	color: #2A3D64;
-}
-
-.featurette-heading {
-}
-
-hr {
-	border: 0;
-	border-bottom: 1px solid #BBD0EE;
-}
-
-.lead {
-	padding-left: 15px;
 }
